@@ -9,4 +9,8 @@
 body{
     background-color: white ;
     overflow-y: scroll;
+    font-family: sans-serif;
+}
+ul li{
+    list-style-type:none;
 }
