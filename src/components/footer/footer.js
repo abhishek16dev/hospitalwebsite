@@ -52,6 +52,20 @@ const Footer = () => {
 
       <hr className='line'></hr>
 
+      <div className='copywright'>
+        <div>    
+           <span> © 2021 Hospital’s name All Rights Reserved by PNTEC-LTD   </span>  
+           
+        </div>
+
+
+         <div className='social_wrap'> 
+         
+
+         </div>
+
+      </div>
+
     </div>
   )
 }
