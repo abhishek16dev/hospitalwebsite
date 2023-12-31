@@ -19,7 +19,6 @@ const Navbar = () => {
           <p className="callNumber">+91 9999999999</p>
         </div>
       </div>
-
       <div className="time">
         <img src={time} alt="timeiconimg" className="timeiconimg" />
 

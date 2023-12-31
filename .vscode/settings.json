@@ -1,0 +1,22 @@
+{
+    "json.schemas": [],
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on"
+    },
+    "files.associations": {
+        "*.jsx": "javascriptreact",
+        "*.js": "javascriptreact"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.preferences": {
+        
+    },
+    "emmet.excludeLanguages": []
+}
