@@ -1,0 +1,150 @@
+.navbar {
+  width: 1440px;
+  height: 80px;
+  background-color: #fcfefe;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading {
+  color: var(--Primary, #1f2b6c);
+  font-family: Yeseva One;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.call,
+.time,
+.location {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically in the center */
+  color: var(--Primary, #1f2b6c);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.calliconimg {
+  margin-right: 10px;
+  object-fit: cover;
+  height: 2rem;
+}
+
+.callTextContainer {
+  display: flex; /* Use flexbox for the text container */
+  flex-direction: column; /* Arrange text vertically */
+}
+
+.time {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.timeiconimg {
+  margin-right: 10px;
+  object-fit: cover;
+  height: 2rem;
+}
+
+.timeTextContainer {
+  display: flex; /* Use flexbox for the text container */
+  flex-direction: column; /* Arrange text vertically */
+}
+
+.location {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.locationiconimg {
+  margin-right: 10px;
+  object-fit: cover;
+  height: 2rem;
+}
+
+.locaionTextContainer {
+  display: flex; /* Use flexbox for the text container */
+  flex-direction: column; /* Arrange text vertically */
+}
+
+.lowerNavbar {
+  background: #1f2b6c;
+  display: flex;
+  width: 1440px;
+  height: auto;
+  padding: 17px 187px 18px 187px;
+  justify-content: center;
+  align-items: center;
+  gap: 276px;
+}
+
+.textBtnContainer {
+  display: flex;
+  width: 1440px;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchapp {
+  display: flex;
+  /* width: 1440px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+  flex-shrink: 0;
+}
+
+.searchIcon:hover {
+  cursor: pointer;
+}
+
+.appointmentbtn {
+  border: none;
+  display: inline-flex;
+  padding: 13px 35px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 50px;
+  background: var(--Accent, #bfd2f8);
+  color: var(--Primary, #1f2b6c);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.appointmentbtn:hover {
+  cursor: pointer;
+}
+
+.textBtnContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+
+  color: #fcfefe;
+  font-family: "Work Sans", "Roboto Mono", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.textBtnContainer:hover{
+    cursor: pointer;
+}
