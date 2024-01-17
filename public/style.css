@@ -9,6 +9,7 @@
 
 body{
     background-color: white ;
+    overflow: hidden;
     overflow-y: scroll;
     font-family: sans-serif;
     /* overflow: hidden; */
